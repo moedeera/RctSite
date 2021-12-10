@@ -1,0 +1,24 @@
+{
+  "name": "rctsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moedeera/RctSite.git"
+  },
+  "author": "Moe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moedeera/RctSite/issues"
+  },
+  "homepage": "https://github.com/moedeera/RctSite#readme",
+  "dependencies": {
+    "concurrently": "^6.4.0",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7"
+  }
+}
