@@ -7,12 +7,12 @@ const path = require('path');
 app.use(express.json());
 app.use(express.urlencoded({extended: true})); 
 
-// app.get('/', (req,res) => {
+app.get('/', (req,res) => {
 
 
-// res.send('its working')
+res.send('its working')
 
-// })
+})
 if (process.env.NODE_ENV === 'production'){
 
     app.use(express.static('client/build'))
@@ -26,6 +26,6 @@ if (process.env.NODE_ENV === 'production'){
 
 
 
-const PORT = process.env.PORT ||8900
+const PORT = process.env.PORT ||8800
 
 app.listen(PORT)
